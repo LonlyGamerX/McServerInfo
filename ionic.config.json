@@ -1,0 +1,7 @@
+{
+  "name": "GameNet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
