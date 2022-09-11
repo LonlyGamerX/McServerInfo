@@ -30,6 +30,7 @@ import "./theme/variables.css";
 // Pages
 import Dashboard from "./pages/Dashboard";
 import Ranks from "./pages/Ranks";
+import Info from "./pages/Info";
 
 setupIonicReact();
 
@@ -45,6 +46,7 @@ const App: React.FC = () => {
             </Route>
             <Route path="/page/dashboard" component={Dashboard} />
             <Route path="/page/ranks" component={Ranks} />
+            <Route path="/page/info" component={Info} />
           </IonRouterOutlet>
         </IonSplitPane>
       </IonReactRouter>
