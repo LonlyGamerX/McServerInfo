@@ -20,8 +20,13 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import "./Ranks.css";
-import Default from "../components/Default";
-import VIP from "../components/VIP";
+import Default from "./Ranks/Default";
+import Member from "./Ranks/Member";
+import Ghoul from "./Ranks/Ghoul";
+import Ghoul_plus from "./Ranks/Ghoul+";
+import Spectre from "./Ranks/Spectre";
+import Spectre_plus from "./Ranks/Spectre+";
+import Reaper from "./Ranks/Reaper";
 
 const Ranks: React.FC = () => {
   return (
@@ -41,7 +46,24 @@ const Ranks: React.FC = () => {
               <Default />
             </IonCol>
             <IonCol size="3">
-              <VIP />
+              <Member />
+            </IonCol>
+            <IonCol size="3">
+              <Ghoul />
+            </IonCol>
+            <IonCol size="3">
+              <Ghoul_plus />
+            </IonCol>
+          </IonRow>
+          <IonRow>
+            <IonCol size="3">
+              <Spectre />
+            </IonCol>
+            <IonCol size="3">
+              <Spectre_plus />
+            </IonCol>
+            <IonCol size="3">
+              <Reaper />
             </IonCol>
           </IonRow>
         </IonGrid>
