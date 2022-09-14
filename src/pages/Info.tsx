@@ -1,10 +1,32 @@
+import {
+  IonButtons,
+  IonCard,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonContent,
+  IonHeader,
+  IonMenuButton,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
 import "./info.css";
 
 const Info: React.FC = () => {
   return (
-    <div className="info">
-      <h1>Info</h1>
-    </div>
+    <IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonButtons slot="start">
+            <IonMenuButton color="success" />
+          </IonButtons>
+          <IonTitle>Info</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent>
+      </IonContent>
+    </IonPage>
   );
 };
 
