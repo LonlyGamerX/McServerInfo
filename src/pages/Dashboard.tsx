@@ -7,7 +7,6 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import "./Dashboard.css";
 
 const Dashboard: React.FC = () => {
   return (

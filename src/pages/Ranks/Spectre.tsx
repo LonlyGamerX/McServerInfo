@@ -23,13 +23,13 @@ const Spectre: React.FC = () => {
           Permissions:
           <IonList>
             <IonItem>
-              <IonLabel>Chat.channels.all</IonLabel>
+              <IonLabel>All Perms from Ghoul+ rank</IonLabel>
             </IonItem>
             <IonItem>
-              <IonLabel>Kitpvp.all</IonLabel>
+              <IonLabel>1 extra login reward</IonLabel>
             </IonItem>
             <IonItem>
-              <IonLabel>kick.all</IonLabel>
+              <IonLabel>Higher priority with support tickets</IonLabel>
             </IonItem>
           </IonList>
         </IonCardContent>

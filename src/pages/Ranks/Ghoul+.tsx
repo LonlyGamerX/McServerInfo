@@ -23,13 +23,13 @@ const Ghoul_plus: React.FC = () => {
           Permissions:
           <IonList>
             <IonItem>
-              <IonLabel>Chat.channels.all</IonLabel>
+              <IonLabel>All Perms from Ghoul rank</IonLabel>
             </IonItem>
             <IonItem>
-              <IonLabel>Kitpvp.all</IonLabel>
+              <IonLabel>World Edit usage in plots</IonLabel>
             </IonItem>
             <IonItem>
-              <IonLabel>kick.all</IonLabel>
+              <IonLabel>Bouns 100$ for survival server</IonLabel>
             </IonItem>
           </IonList>
         </IonCardContent>

@@ -28,6 +28,12 @@ const Default: React.FC = () => {
             <IonItem>
               <IonLabel>Kitpvp.all</IonLabel>
             </IonItem>
+            <IonItem>
+              <IonLabel>deluxehub.command.vanish</IonLabel>
+            </IonItem>
+            <IonItem>
+              <IonLabel>plots.visit</IonLabel>
+            </IonItem>
           </IonList>
         </IonCardContent>
       </IonCard>

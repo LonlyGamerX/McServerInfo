@@ -19,7 +19,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import "./Ranks.css";
+
 import Default from "./Ranks/Default";
 import Member from "./Ranks/Member";
 import Ghoul from "./Ranks/Ghoul";
@@ -42,27 +42,27 @@ const Ranks: React.FC = () => {
       <IonContent>
         <IonGrid>
           <IonRow>
-            <IonCol size="3">
+            <IonCol size="7">
               <Default />
             </IonCol>
-            <IonCol size="3">
+            <IonCol size="7">
               <Member />
             </IonCol>
-            <IonCol size="3">
+            <IonCol size="7">
               <Ghoul />
             </IonCol>
-            <IonCol size="3">
+            <IonCol size="7">
               <Ghoul_plus />
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="3">
+            <IonCol size="7">
               <Spectre />
             </IonCol>
-            <IonCol size="3">
+            <IonCol size="7">
               <Spectre_plus />
             </IonCol>
-            <IonCol size="3">
+            <IonCol size="7">
               <Reaper />
             </IonCol>
           </IonRow>

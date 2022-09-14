@@ -23,13 +23,13 @@ const Ghoul: React.FC = () => {
           Permissions:
           <IonList>
             <IonItem>
-              <IonLabel>Chat.channels.all</IonLabel>
+              <IonLabel>All Perms from Default rank</IonLabel>
             </IonItem>
             <IonItem>
-              <IonLabel>Kitpvp.all</IonLabel>
+              <IonLabel>A thank you note from the devs</IonLabel>
             </IonItem>
             <IonItem>
-              <IonLabel>kick.all</IonLabel>
+              <IonLabel>New chat color</IonLabel>
             </IonItem>
           </IonList>
         </IonCardContent>

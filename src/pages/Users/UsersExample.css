@@ -1,0 +1,18 @@
+.UserAvatar {
+  margin-left: 112%;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .UserAvatar {
+    margin-left: 50%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  .UserAvatar {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}

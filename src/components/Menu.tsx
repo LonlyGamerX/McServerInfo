@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
-import { desktopOutline, desktopSharp, medalOutline, medalSharp, alertCircleOutline, alertCircleSharp } from 'ionicons/icons';
+import { desktopOutline, desktopSharp, medalOutline, medalSharp, alertCircleOutline, alertCircleSharp, peopleOutline, peopleSharp } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -27,6 +27,12 @@ const appPages: AppPage[] = [
     url: '/page/dashboard',
     iosIcon: desktopOutline,
     mdIcon: desktopSharp
+  },
+  {
+    title: 'Users',
+    url: '/page/users',
+    iosIcon: peopleOutline,
+    mdIcon: peopleSharp
   },
   {
     title: 'Ranks',
