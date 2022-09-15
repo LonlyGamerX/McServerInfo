@@ -36,7 +36,7 @@ const Users: React.FC = () => {
       <IonContent>
         <IonGrid>
           <IonRow>
-            <IonCol size="7">
+            <IonCol size="3">
               <UsersExample />
             </IonCol>
           </IonRow>
