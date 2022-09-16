@@ -42,27 +42,27 @@ const Ranks: React.FC = () => {
       <IonContent>
         <IonGrid>
           <IonRow>
-            <IonCol size="3">
+            <IonCol>
               <Default />
             </IonCol>
-            <IonCol size="3">
+            <IonCol>
               <Member />
             </IonCol>
-            <IonCol size="3">
+            <IonCol>
               <Ghoul />
             </IonCol>
-            <IonCol size="3">
+            <IonCol>
               <Ghoul_plus />
             </IonCol>
           </IonRow>
           <IonRow>
-            <IonCol size="3">
+            <IonCol>
               <Spectre />
             </IonCol>
-            <IonCol size="3">
+            <IonCol>
               <Spectre_plus />
             </IonCol>
-            <IonCol size="3">
+            <IonCol>
               <Reaper />
             </IonCol>
           </IonRow>

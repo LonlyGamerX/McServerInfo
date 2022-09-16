@@ -19,7 +19,9 @@ const Dashboard: React.FC = () => {
           <IonTitle>Dashboard</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent></IonContent>
+      <IonContent>
+        
+      </IonContent>
     </IonPage>
   );
 };
